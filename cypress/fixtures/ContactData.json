@@ -1,0 +1,10 @@
+{
+  "FORENAME_INPUT_DATA": "MyFirstName",
+  "EMAIL_INPUT_DATA": "test@gmail.com",
+  "MESSAGE_INPUT_DATA": "Test message - Something about me!",
+
+  "FORENAME_VALIDATION_MESSAGE_DATA": "Forename is required",
+  "EMAIL_VALIDATION_MESSAGE_DATA": "Email is required",
+  "MESSAGE_VALIDATION_MESSAGE_DATA": "Message is required",
+  "PAGE_VALIDATION_ALERT_ERROR_DATA": "We welcome your feedback - but we won't get it unless you complete the form correctly."
+}

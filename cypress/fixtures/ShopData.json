@@ -1,0 +1,8 @@
+{
+  "TC03_SHOP_ITEM": ["Funny Cow","Fluffy Bunny"],
+  "TC03_SHOP_ITEM_VALUE" : ["2","1"],
+  
+  "TC04_SHOP_ITEM": ["Stuffed Frog","Fluffy Bunny","Valentine Bear"],
+  "TC04_SHOP_ITEM_VALUE" : ["2","5","3"],
+  "TC04_SHOP_ITEM_PRICE" : ["$10.99","$9.99","$14.99"]
+}
