@@ -5,18 +5,18 @@ name: Generate Cypress Report
 on: 
   push:
     branches:
-    - 'master'
+    - 'main'
 jobs:
   cypress-test:
-    name: Run on Chrome 96
+    name: Run on Chrome 94
     runs-on: cy[cypress/browsers:node16.5.0-chrome94-ff93
     steps:
       - uses: actions/checkout@v2
       
       - name: Install cypress and verify
-      run:
-        npm ci
-        $(npm bin)/cypress verify
+        run:
+          npm ci
+          $(npm bin)/cypress verify
         
       - name: Run Cypress tests
        run: npm run test:chrome
