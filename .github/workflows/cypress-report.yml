@@ -9,7 +9,8 @@ on:
 jobs:
   cypress-test:
     name: Run on Chrome 94
-    runs-on: cy[cypress/browsers:node16.5.0-chrome94-ff93
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node16.5.0-chrome94-ff93
     steps:
       - uses: actions/checkout@v2
       
