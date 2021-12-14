@@ -21,7 +21,7 @@ jobs:
           $(npm bin)/cypress verify
         
       - name: Run Cypress tests
-        run: ./node_modules/.bin/cypress run --headed --spec ".\cypress\integration\Tests\*" --browser firefox
+        run: ./node_modules/.bin/cypress run --headed --spec ".\cypress\integration\Tests\*" --browser chrome
         continue-on-error: false
        
       - name: Copy test execution videos and screenshots
