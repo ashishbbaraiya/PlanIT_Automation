@@ -21,14 +21,14 @@ jobs:
           $(npm bin)/cypress verify
         
       - name: Run Cypress tests
-        run: ./node_modules/.bin/cypress run --headed --spec "./cypress/integration/Tests/*" --browser chrome
+        run: ./node_modules/.bin/cypress run --headed --spec "./cypress/integration/Tests/Contact_Tests.js" --browser chrome
         continue-on-error: false
        
       - name: Copy test execution videos and screenshots
         run:
           mkdir public
-          cp -r cypress/videos public/videos
-          cp -r cypress/screenshots public/screenshots
+          cp cypress/videos public/videos
+          cp cypress/screenshots public/screenshots
         
       - name: Merge test reports
         run: npm run combine:report
